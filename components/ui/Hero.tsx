@@ -21,13 +21,10 @@ const TerminalComponent = () => {
   const [command, setCommand] = useState("");
   const [output, setOutput] = useState<string[]>([
     `$ ${locale === "de" ? "hilfe" : "help"}`,
-    locale === "de" 
+    locale === "de"
       ? "Verfügbare Befehle: hilfe, über, fähigkeiten, projekte, kontakt, fenster leeren"
-      : "Available commands: help, about, skills, projects, contact, clear window"
+      : "Available commands: help, about, skills, projects, contact, clear window",
   ]);
-
-
-  
 
   const handleCommand = (e: React.FormEvent) => {
     e.preventDefault();
@@ -46,20 +43,26 @@ const TerminalComponent = () => {
         return t("about.description");
       case "skills":
       case "fähigkeiten":
-        return `${t("about.skills")} ${t("about.skillsList.skill1")}, ${t("about.skillsList.skill2")}, ${t("about.skillsList.skill3")}, ${t("about.skillsList.skill4")}, ${t("about.skillsList.skill5")}, ${t("about.skillsList.skill6")}`;
+        return `${t("about.skills")} ${t("about.skillsList.skill1")}, ${t(
+          "about.skillsList.skill2"
+        )}, ${t("about.skillsList.skill3")}, ${t(
+          "about.skillsList.skill4"
+        )}, ${t("about.skillsList.skill5")}, ${t("about.skillsList.skill6")}`;
       case "projects":
       case "projekte":
         return "GitHub: https://github.com/shahwans";
       case "contact":
       case "kontakt":
-        return `${t("contact.email")} | LinkedIn: https://linkedin.com/in/seif-shahwan-94bb0a1a6`;
+        return `${t(
+          "contact.email"
+        )} | LinkedIn: https://linkedin.com/in/seif-shahwan-94bb0a1a6`;
       case "clear window":
       case "fenster leeren":
         setOutput([
           `$ ${locale === "de" ? "hilfe" : "help"}`,
-    locale === "de" 
-      ? "Verfügbare Befehle: hilfe, über, fähigkeiten, projekte, kontakt, fenster leeren"
-      : "Available commands: help, about, skills, projects, contact, clear window"
+          locale === "de"
+            ? "Verfügbare Befehle: hilfe, über, fähigkeiten, projekte, kontakt, fenster leeren"
+            : "Available commands: help, about, skills, projects, contact, clear window",
         ]);
         return "";
       default:
@@ -67,10 +70,8 @@ const TerminalComponent = () => {
     }
   };
 
-
-
   return (
-    <div className="bg-gray-900 text-green-400 p-4 rounded-lg shadow-lg w-full max-w-lg font-mono text-sm" >
+    <div className="bg-gray-900 text-green-400 p-4 rounded-lg shadow-lg w-full max-w-lg font-mono text-sm">
       <div className="mb-4 h-40 overflow-y-auto">
         {output.map((line, index) => (
           <div key={index}>{line}</div>
@@ -111,10 +112,13 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center text-foreground px-4 py-12 relative overflow-hidden" id="home">
-    <div className="mx-auto max-w-6xl relative z-10">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        <div className="space-y-6">
+    <section
+      className="min-h-screen flex flex-col justify-center items-center text-foreground px-4 py-12 relative overflow-hidden"
+      id="home"
+    >
+      <div className="mx-auto max-w-6xl relative z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="space-y-6">
             <motion.div
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -154,13 +158,13 @@ export default function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
-              className="space-x-4"
+              className="space-y-4 sm:space-y-0 sm:space-x-4 flex flex-col sm:flex-row"
             >
               <Link href="#projects">
-               <Button  className="group bg-gradient-to-r from-primary to-accent hover:from-primary/80 hover:to-accent/80">
-                {t("hero.viewWork")}
-                <ChevronRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </Button>
+                <Button className="group bg-gradient-to-r from-primary to-accent hover:from-primary/80 hover:to-accent/80">
+                  {t("hero.viewWork")}
+                  <ChevronRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </Button>
               </Link>
               <Button
                 variant="outline"
@@ -219,15 +223,9 @@ export default function HeroSection() {
           <h2 className="text-2xl font-semibold mb-4 text-blue-400">
             {t("about.title")}
           </h2>
-          <p className="text-gray-300 mb-4">
-            {t("about.description")}
-          </p>
-          <p className="text-gray-300 mb-4">
-            {t("about.description2")}
-          </p>
-          <p className="text-gray-300">
-            {t("about.description3")}
-          </p>
+          <p className="text-gray-300 mb-4">{t("about.description")}</p>
+          <p className="text-gray-300 mb-4">{t("about.description2")}</p>
+          <p className="text-gray-300">{t("about.description3")}</p>
         </motion.div>
       </div>
     </section>
