@@ -1,0 +1,79 @@
+{
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
+  },
+  "home": {
+    "nav": {
+      "home": "Startseite",
+      "about": "Über mich",
+      "projects": "Projekte",
+      "experience": "Erfahrung",
+      "contact": "Kontakt"
+    },
+    "hero": {
+      "title": "John Doe",
+      "subtitle": "Full-Stack Webentwickler",
+      "learnMore": "Mehr erfahren",
+      "downloadCV": "Lebenslauf herunterladen"
+    },
+    "about": {
+      "title": "Über mich",
+      "subtitle": "Leidenschaftlicher Full-Stack Entwickler",
+      "description": "Ich bin ein Full-Stack Webentwickler mit über 5 Jahren Erfahrung in der Entwicklung skalierbarer, effizienter und benutzerfreundlicher Webanwendungen. Meine Expertise umfasst Front-End- und Back-End-Technologien, mit einem starken Fokus auf moderne JavaScript-Frameworks und Cloud-Technologien.",
+      "skills": "Fähigkeiten:",
+      "skillsList": {
+        "skill1": "JavaScript (React, Node.js, Express)",
+        "skill2": "TypeScript",
+        "skill3": "Python (Django, Flask)",
+        "skill4": "SQL und NoSQL-Datenbanken",
+        "skill5": "AWS, Docker und Kubernetes",
+        "skill6": "RESTful API-Design und GraphQL"
+      }
+    },
+    "projects": {
+      "title": "Projekte",
+      "livePreview": "Live-Vorschau"
+    },
+    "experience": {
+      "title": "Erfahrung",
+      "subtitle": "Mein beruflicher Werdegang",
+      "position1": {
+        "title": "Senior Full-Stack Entwickler",
+        "company": "Tech Innovations GmbH",
+        "dates": "2020 - Heute",
+        "responsibility1": "Leitung der Entwicklung skalierbarer Webanwendungen mit React und Node.js",
+        "responsibility2": "Implementierung von CI/CD-Pipelines, Verbesserung der Bereitstellungseffizienz um 40%",
+        "responsibility3": "Mentoring von Junior-Entwicklern und Durchführung von Code-Reviews"
+      },
+      "position2": {
+        "title": "Full-Stack Entwickler",
+        "company": "WebSolutions GmbH",
+        "dates": "2018 - 2020",
+        "responsibility1": "Entwicklung und Wartung mehrerer Kunden-Websites mit Vue.js und Django",
+        "responsibility2": "Optimierung von Datenbankabfragen, resultierend in einer 30%igen Verbesserung der Anwendungsleistung",
+        "responsibility3": "Zusammenarbeit mit UX-Designern zur Implementierung responsiver und barrierefreier Benutzeroberflächen"
+      },
+      "position3": {
+        "title": "Junior Webentwickler",
+        "company": "StartUp Dynamics",
+        "dates": "2016 - 2018",
+        "responsibility1": "Unterstützung bei der Entwicklung eines Social-Media-Management-Tools mit React und Express",
+        "responsibility2": "Implementierung von RESTful APIs und Integration von Drittanbieterdiensten",
+        "responsibility3": "Teilnahme an täglichen Stand-ups und Sprint-Planungsmeetings"
+      }
+    },
+    "contact": {
+      "title": "Kontaktieren Sie mich",
+      "subtitle": "Lassen Sie uns in Verbindung treten!",
+      "description": "Ich bin immer offen für neue Möglichkeiten und Zusammenarbeiten. Zögern Sie nicht, mich über einen der folgenden Kanäle zu kontaktieren:",
+      "email": "john.doe@example.com",
+      "linkedin": "LinkedIn Profil",
+      "github": "GitHub Profil",
+      "twitter": "Twitter Profil"
+    },
+    "footer": {
+      "copyright": "© 2023 John Doe. Alle Rechte vorbehalten."
+    }
+  }
+}

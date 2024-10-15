@@ -1,0 +1,79 @@
+{
+  "LocaleSwitcher": {
+    "label": "Language",
+    "locale": "{locale, select, en {🇺🇸 English} de {🇩🇪 Deutsch} other {Unknown}}"
+  },
+  "home": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "projects": "Projects",
+      "experience": "Experience",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "John Doe",
+      "subtitle": "Full Stack Web Developer",
+      "learnMore": "Learn More",
+      "downloadCV": "Download CV"
+    },
+    "about": {
+      "title": "About Me",
+      "subtitle": "Passionate Full Stack Developer",
+      "description": "I'm a full stack web developer with 5+ years of experience in building scalable, efficient, and user-friendly web applications. My expertise spans across front-end and back-end technologies, with a strong focus on modern JavaScript frameworks and cloud technologies.",
+      "skills": "Skills:",
+      "skillsList": {
+        "skill1": "JavaScript (React, Node.js, Express)",
+        "skill2": "TypeScript",
+        "skill3": "Python (Django, Flask)",
+        "skill4": "SQL and NoSQL databases",
+        "skill5": "AWS, Docker, and Kubernetes",
+        "skill6": "RESTful API design and GraphQL"
+      }
+    },
+    "projects": {
+      "title": "Projects",
+      "livePreview": "Live Preview"
+    },
+    "experience": {
+      "title": "Experience",
+      "subtitle": "My professional journey",
+      "position1": {
+        "title": "Senior Full Stack Developer",
+        "company": "Tech Innovations Inc.",
+        "dates": "2020 - Present",
+        "responsibility1": "Lead development of scalable web applications using React and Node.js",
+        "responsibility2": "Implemented CI/CD pipelines, improving deployment efficiency by 40%",
+        "responsibility3": "Mentored junior developers and conducted code reviews"
+      },
+      "position2": {
+        "title": "Full Stack Developer",
+        "company": "WebSolutions Co.",
+        "dates": "2018 - 2020",
+        "responsibility1": "Developed and maintained multiple client websites using Vue.js and Django",
+        "responsibility2": "Optimized database queries, resulting in a 30% improvement in application performance",
+        "responsibility3": "Collaborated with UX designers to implement responsive and accessible interfaces"
+      },
+      "position3": {
+        "title": "Junior Web Developer",
+        "company": "StartUp Dynamics",
+        "dates": "2016 - 2018",
+        "responsibility1": "Assisted in the development of a social media management tool using React and Express",
+        "responsibility2": "Implemented RESTful APIs and integrated third-party services",
+        "responsibility3": "Participated in daily stand-ups and sprint planning meetings"
+      }
+    },
+    "contact": {
+      "title": "Contact Me",
+      "subtitle": "Let's connect!",
+      "description": "I'm always open to new opportunities and collaborations. Feel free to reach out to me through any of the following channels:",
+      "email": "john.doe@example.com",
+      "linkedin": "LinkedIn Profile",
+      "github": "GitHub Profile",
+      "twitter": "Twitter Profile"
+    },
+    "footer": {
+      "copyright": "© 2023 John Doe. All rights reserved."
+    }
+  }
+}
