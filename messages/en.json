@@ -7,73 +7,91 @@
     "nav": {
       "home": "Home",
       "about": "About",
+      "skills": "Skills",
       "projects": "Projects",
       "experience": "Experience",
       "contact": "Contact"
     },
     "hero": {
-      "title": "John Doe",
-      "subtitle": "Full Stack Web Developer",
-      "learnMore": "Learn More",
-      "downloadCV": "Download CV"
+      "title": "Full Stack Web Developer",
+      "subtitle": "Crafting innovative web solutions with ",
+      "viewWork": "View Work",
+      "downloadCV": "Download CV",
+      "interactiveTerminal": "Interactive Terminal",
+      "availableCommands": "Available commands: help, about, skills, projects, contact",
+      "commandNotFound": "Command not found: {cmd}. Type 'help' for available commands.",
+      "about": "About Me",
+      "typeACommand": "Type 'help' for available commands."
     },
     "about": {
       "title": "About Me",
       "subtitle": "Passionate Full Stack Developer",
       "description": "I'm a full stack web developer with 5+ years of experience in building scalable, efficient, and user-friendly web applications. My expertise spans across front-end and back-end technologies, with a strong focus on modern JavaScript frameworks and cloud technologies.",
+      "description2": "As a student developer, I'm constantly amazed by the rapid evolution of web technologies. I've had the opportunity to work on various projects, each one fueling my passion for creating efficient and user-friendly web applications. I'm always eager to learn and adapt to new frameworks and tools in this ever-changing field.",
+      "description3": "When I'm not immersed in code or studying, you can often find me gaming to unwind. I'm also a night owl who enjoys the tranquility of working on projects at 2 AM, fueled by a good cup of coffee. This combination of academic pursuit, practical experience, and personal interests drives my growth as a developer.",
       "skills": "Skills:",
       "skillsList": {
-        "skill1": "JavaScript (React, Node.js, Express)",
+        "skill1": "JavaScript",
         "skill2": "TypeScript",
-        "skill3": "Python (Django, Flask)",
-        "skill4": "SQL and NoSQL databases",
-        "skill5": "AWS, Docker, and Kubernetes",
-        "skill6": "RESTful API design and GraphQL"
+        "skill3": "React",
+        "skill4": "Next.js",
+        "skill5": "Node.js",
+        "skill6": "Express and much more...."
       }
+      
+      
+    },
+    "skills": {
+      "title": "My Skills",
+      "frontend": "Frontend Development",
+      "backend": "Backend Development",
+      "database": "Database Management",
+      "DevOps": "DevOps",
+      "languages": "Languages",
+      "tools": "Tools"
     },
     "projects": {
       "title": "Projects",
-      "livePreview": "Live Preview"
+      "viewLive": "View Live",
+      "sourceCode": "Source Code",
+      "SocialCodeLensDescription": "SocialCodeLens delivers digital marketing, branding, and web development services.",
+      "PhotogenieDescription": "A Portfolio Website for a Photographer.",
+      "UniguesserDescription": "An interactive quiz game for university students."
+     
     },
     "experience": {
       "title": "Experience",
       "subtitle": "My professional journey",
       "position1": {
-        "title": "Senior Full Stack Developer",
-        "company": "Tech Innovations Inc.",
-        "dates": "2020 - Present",
-        "responsibility1": "Lead development of scalable web applications using React and Node.js",
-        "responsibility2": "Implemented CI/CD pipelines, improving deployment efficiency by 40%",
-        "responsibility3": "Mentored junior developers and conducted code reviews"
+        "title": "Full Stack Developer",
+        "company": "Helden im Handwerk",
+        "dates": "December 2023 - Present",
+        "responsibility1": "Sole developer building full-stack web applications",
+        "responsibility2": "Created news websites and custom websites for clients",
+        "responsibility3": "Implemented various interesting projects using modern web technologies"
       },
       "position2": {
-        "title": "Full Stack Developer",
-        "company": "WebSolutions Co.",
-        "dates": "2018 - 2020",
-        "responsibility1": "Developed and maintained multiple client websites using Vue.js and Django",
-        "responsibility2": "Optimized database queries, resulting in a 30% improvement in application performance",
-        "responsibility3": "Collaborated with UX designers to implement responsive and accessible interfaces"
-      },
-      "position3": {
-        "title": "Junior Web Developer",
-        "company": "StartUp Dynamics",
-        "dates": "2016 - 2018",
-        "responsibility1": "Assisted in the development of a social media management tool using React and Express",
-        "responsibility2": "Implemented RESTful APIs and integrated third-party services",
-        "responsibility3": "Participated in daily stand-ups and sprint planning meetings"
+        "title": "Gastronomy Worker",
+        "company": "Aroma Restaurant",
+        "dates": "2021 - 2023",
+        "responsibility1": "Provided excellent customer service in a fast-paced restaurant environment",
+        "responsibility2": "Collaborated with kitchen staff to ensure timely and quality food service",
+        "responsibility3": "Developed strong teamwork and communication skills"
       }
     },
     "contact": {
       "title": "Contact Me",
       "subtitle": "Let's connect!",
       "description": "I'm always open to new opportunities and collaborations. Feel free to reach out to me through any of the following channels:",
-      "email": "john.doe@example.com",
+      "email": "saif.shahwan@icloud.com",
       "linkedin": "LinkedIn Profile",
       "github": "GitHub Profile",
-      "twitter": "Twitter Profile"
+   
+      "downloadCV": "Download CV",
+      "sendMessage": "Send Message"
     },
     "footer": {
-      "copyright": "© 2023 John Doe. All rights reserved."
+      "copyright": "© 2024 Seif Shahwan. All rights reserved."
     }
   }
 }
