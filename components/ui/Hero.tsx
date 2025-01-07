@@ -109,7 +109,7 @@ export default function HeroSection() {
       setCurrentTech((prev) => (prev + 1) % technologies.length);
     }, 2000);
     return () => clearInterval(interval);
-  }, []);
+  }, [technologies.length]);
 
   return (
     <section

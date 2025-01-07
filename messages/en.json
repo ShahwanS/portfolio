@@ -26,7 +26,7 @@
     "about": {
       "title": "About Me",
       "subtitle": "Passionate Full Stack Developer",
-      "description": "I'm a full stack web developer with 5+ years of experience in building scalable, efficient, and user-friendly web applications. My expertise spans across front-end and back-end technologies, with a strong focus on modern JavaScript frameworks and cloud technologies.",
+      "description": "I'm a full stack web developer with 2+ years of experience in building scalable, efficient, and user-friendly web applications. My expertise spans across front-end and back-end technologies, with a strong focus on modern JavaScript frameworks and cloud technologies.",
       "description2": "As a student developer, I'm constantly amazed by the rapid evolution of web technologies. I've had the opportunity to work on various projects, each one fueling my passion for creating efficient and user-friendly web applications. I'm always eager to learn and adapt to new frameworks and tools in this ever-changing field.",
       "description3": "When I'm not immersed in code or studying, you can often find me gaming to unwind. I'm also a night owl who enjoys the tranquility of working on projects at 2 AM, fueled by a good cup of coffee. This combination of academic pursuit, practical experience, and personal interests drives my growth as a developer.",
       "skills": "Skills:",
@@ -38,8 +38,6 @@
         "skill5": "Node.js",
         "skill6": "Express and much more...."
       }
-      
-      
     },
     "skills": {
       "title": "My Skills",
@@ -57,7 +55,6 @@
       "SocialCodeLensDescription": "SocialCodeLens delivers digital marketing, branding, and web development services.",
       "PhotogenieDescription": "A Portfolio Website for a Photographer.",
       "UniguesserDescription": "An interactive quiz game for university students."
-     
     },
     "experience": {
       "title": "Experience",
@@ -86,7 +83,7 @@
       "email": "saif.shahwan@icloud.com",
       "linkedin": "LinkedIn Profile",
       "github": "GitHub Profile",
-   
+
       "downloadCV": "Download CV",
       "sendMessage": "Send Message"
     },
