@@ -167,10 +167,7 @@ export default function HeroSection() {
                 </Button>
               </Link>
 
-              <Link
-                href="https://drive.google.com/file/d/12Bl2YD_sgneVLcdj5eBe4gd4NMDdS3hv/view?usp=sharing"
-                target="_blank"
-              >
+              <Link href={t("hero.cv")} target="_blank">
                 <Button
                   variant="outline"
                   className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
