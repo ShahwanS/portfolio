@@ -166,13 +166,19 @@ export default function HeroSection() {
                   <ChevronRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Button>
               </Link>
-              <Button
-                variant="outline"
-                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+
+              <Link
+                href="https://drive.google.com/file/d/12Bl2YD_sgneVLcdj5eBe4gd4NMDdS3hv/view?usp=sharing"
+                target="_blank"
               >
-                {t("hero.downloadCV")}
-                <Download size={20} className="ml-2" />
-              </Button>
+                <Button
+                  variant="outline"
+                  className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                >
+                  {t("hero.downloadCV")}
+                  <Download size={20} className="ml-2" />
+                </Button>
+              </Link>
             </motion.div>
             <motion.div
               className="flex space-x-4"
