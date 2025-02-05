@@ -47,11 +47,15 @@ export default function LocaleSwitcherSelect({
           if (React.isValidElement(child) && child.type === "option") {
             return (
               <DropdownMenuItem
-                key={child.props.value}
-                onSelect={() => onSelectChange(child.props.value as Locale)}
+                key={(child.props as { value: string }).value}
+                onSelect={() =>
+                  onSelectChange(
+                    (child.props as { value: string }).value as Locale
+                  )
+                }
                 disabled={isPending}
               >
-                {child.props.children}
+                {(child.props as { children: ReactNode }).children}
               </DropdownMenuItem>
             );
           }
