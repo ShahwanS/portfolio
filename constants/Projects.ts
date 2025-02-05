@@ -30,7 +30,7 @@ export const projects = (t: any): Project[] => [
     title: "UniGuesser",
     description: t("projects.UniguesserDescription"),
     image: uniGuesser,
-    livePreview: "https://www.uniguesser.de",
+    livePreview: "https://uniguesser.de",
     sourceCode: "https://github.com/ShahwanS/UniGuesser",
   },
 ];

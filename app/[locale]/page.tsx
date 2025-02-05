@@ -3,14 +3,7 @@
 import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
-import {
-  User,
-  Mail,
-  Code,
-  Briefcase,
-  GraduationCap,
-  Menu,
-} from "lucide-react";
+import { User, Mail, Code, Briefcase, GraduationCap, Menu } from "lucide-react";
 import LocaleSwitcher from "@/components/LocaleSwitcher";
 import HeroSection from "@/components/ui/Hero";
 import { ProjectCard } from "@/components/ui/projectCard";
@@ -18,20 +11,7 @@ import { projects } from "@/constants/Projects";
 import Skills from "@/components/ui/skills";
 import Experience from "@/components/ui/experience";
 import Contact from "@/components/ui/contact";
-
-interface Section {
-  id: string;
-  icon: React.ElementType;
-}
-
-const sections: Section[] = [
-  { id: "home", icon: User },
-  { id: "about", icon: User },
-  { id: "skills", icon: GraduationCap },
-  { id: "projects", icon: Code },
-  { id: "experience", icon: Briefcase },
-  { id: "contact", icon: Mail },
-];
+import { sections } from "@/constants/sections";
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState("home");
@@ -44,8 +24,8 @@ export default function Home() {
       setIsMobile(window.innerWidth < 768);
     };
     handleResize();
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   const scrollTo = (id: string) => {
@@ -75,7 +55,9 @@ export default function Home() {
                     {sections.map((section) => (
                       <li key={section.id}>
                         <Button
-                          variant={activeSection === section.id ? "default" : "ghost"}
+                          variant={
+                            activeSection === section.id ? "default" : "ghost"
+                          }
                           className="w-full justify-start"
                           onClick={() => {
                             scrollTo(section.id);
