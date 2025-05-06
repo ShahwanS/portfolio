@@ -2,7 +2,7 @@ import { StaticImageData } from "next/image";
 import photoGenie from "@/public/images/photogenie.png";
 import socialCodeLens from "@/public/images/SocialCodeLens.png";
 import uniGuesser from "@/public/images/uniguesser.png";
-
+import GameHub from "@/public/images/gamehub.png";
 interface Project {
   title: string;
   description: string;
@@ -33,4 +33,11 @@ export const projects = (t: any): Project[] => [
     livePreview: "https://uniguesser.de",
     sourceCode: "https://github.com/ShahwanS/UniGuesser",
   },
+  {
+    title: "GameHub",
+    description: t("projects.GameHubDescription"),
+    image: GameHub,
+    livePreview: "https://gamehub-eight-orcin.vercel.app/",
+    sourceCode: ""
+  }
 ];

@@ -55,7 +55,8 @@
       "sourceCode": "Source Code",
       "SocialCodeLensDescription": "SocialCodeLens delivers digital marketing, branding, and web development services.",
       "PhotogenieDescription": "A Portfolio Website for a Photographer.",
-      "UniguesserDescription": "An interactive quiz game for university students."
+      "UniguesserDescription": "An interactive quiz game for university students.",
+      "GameHub": "A platform for mini-games that can be played both offline and online."
     },
     "experience": {
       "title": "Experience",
@@ -63,7 +64,7 @@
       "position1": {
         "title": "Full Stack Developer",
         "company": "Helden im Handwerk",
-        "dates": "December 2023 - Present",
+        "dates": "December 2023 - June 2025",
         "responsibility1": "Sole developer building full-stack web applications",
         "responsibility2": "Created news websites and custom websites for clients",
         "responsibility3": "Implemented various interesting projects using modern web technologies"

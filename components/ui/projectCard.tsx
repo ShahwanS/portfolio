@@ -49,6 +49,7 @@ export function ProjectCard({
               {t("projects.viewLive")}
               <ExternalLink className="ml-2 h-4 w-4" />
             </Button>
+            {sourceCode && (
             <Button
               className="bg-white text-gray-900 hover:bg-purple-400 hover:text-white transition-colors duration-300"
               onClick={() => window.open(sourceCode, "_blank")}
@@ -56,6 +57,7 @@ export function ProjectCard({
               {t("projects.sourceCode")}
               <Github className="ml-2 h-4 w-4" />
             </Button>
+            )}
           </motion.div>
         </div>
       </div>
