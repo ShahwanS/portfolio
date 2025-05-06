@@ -2,7 +2,7 @@ import { StaticImageData } from "next/image";
 import photoGenie from "@/public/images/photogenie.png";
 import socialCodeLens from "@/public/images/SocialCodeLens.png";
 import uniGuesser from "@/public/images/uniguesser.png";
-import GameHub from "@/public/images/gamehub.png";
+import GameHub from "@/public/images/GameHub.png";
 interface Project {
   title: string;
   description: string;

@@ -56,7 +56,7 @@
       "SocialCodeLensDescription": "SocialCodeLens bietet Dienstleistungen im Bereich digitales Marketing, Branding und Webentwicklung an.",
       "PhotogenieDescription": "Eine Portfolio-Website für einen Fotografen.",
       "UniguesserDescription": "Ein interaktives Quizspiel für Universitätsstudenten.",
-      "GameHub" : "Eine Plattform für Minispiele, die sowohl offline als auch online gespielt werden können."
+      "GameHubDescription" : "Eine Plattform für Minispiele, die sowohl offline als auch online gespielt werden können."
     },
     "experience": {
       "title": "Erfahrung",
