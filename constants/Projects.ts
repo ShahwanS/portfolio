@@ -2,7 +2,7 @@ import { StaticImageData } from "next/image";
 import photoGenie from "@/public/images/photogenie.png";
 import socialCodeLens from "@/public/images/SocialCodeLens.png";
 import uniGuesser from "@/public/images/uniguesser.png";
-import GameHub from "@/public/images/GameHub.png";
+import GameSprout from "@/public/images/GameSproute.png";
 interface Project {
   title: string;
   description: string;
@@ -14,8 +14,8 @@ interface Project {
 export const projects = (t: any): Project[] => [
   {
     title: "GameSprout",
-    description: t("projects.GameHubDescription"),
-    image: GameHub,
+    description: t("projects.GameSproutDescription"),
+    image: GameSprout,
     livePreview: "https://www.gamesprout.app",
     sourceCode: ""
   },

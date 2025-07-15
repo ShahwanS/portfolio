@@ -47,7 +47,7 @@ export default function Contact() {
               <ContactItem icon={Mail} text={t("contact.email")} href={`mailto:${t("contact.email")}`} />
               <ContactItem icon={Linkedin} text={t("contact.linkedin")} href="https://www.linkedin.com/in/seif-shahwan-94bb0a1a6/" />
               <ContactItem icon={Github} text={t("contact.github")} href="https://github.com/shahwans" />
-              <ContactItem icon={FileText} text={t("contact.downloadCV")} href="/path-to-your-cv.pdf" download />
+              <ContactItem icon={FileText} text={t("contact.downloadCV")} href={t("hero.cv")} download />
             </div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}

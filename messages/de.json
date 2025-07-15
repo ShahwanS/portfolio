@@ -22,7 +22,7 @@
       "commandNotFound": "Befehl nicht gefunden: {cmd}. Geben Sie 'hilfe' ein für verfügbare Befehle.",
       "about": "Über mich",
       "typeACommand": "Geben Sie 'hilfe' ein für verfügbare Befehle.",
-      "cv": "https://drive.google.com/file/d/1SNIww332OZBMJ_dms7PbH_ulDyhfTlfp/view?usp=sharing"
+      "cv": "https://drive.google.com/file/d/1ERhI_Ngy6LbBSu0imQhVd_cjMMZsjtae/view?usp=sharing"
     },
     "about": {
       "title": "Über mich",
@@ -56,7 +56,7 @@
       "SocialCodeLensDescription": "SocialCodeLens bietet Dienstleistungen im Bereich digitales Marketing, Branding und Webentwicklung an.",
       "PhotogenieDescription": "Eine Portfolio-Website für einen Fotografen.",
       "UniguesserDescription": "Ein interaktives Quizspiel für Universitätsstudenten.",
-      "GameHubDescription" : "Eine Plattform für Minispiele, die sowohl offline als auch online gespielt werden können."
+      "GameSproutDescription" : "Eine Plattform für Minispiele, die sowohl offline als auch online gespielt werden können."
     },
     "experience": {
       "title": "Erfahrung",
@@ -68,15 +68,8 @@
         "responsibility1": "Alleiniger Entwickler für Full-Stack-Webanwendungen",
         "responsibility2": "Erstellung von Nachrichtenwebsites und kundenspezifischen Websites",
         "responsibility3": "Implementierung verschiedener interessanter Projekte mit modernen Webtechnologien"
-      },
-      "position2": {
-        "title": "Gastronomiemitarbeiter",
-        "company": "Aroma Restaurant",
-        "dates": "2021 - 2023",
-        "responsibility1": "Exzellenter Kundenservice in einem schnelllebigen Restaurantumfeld",
-        "responsibility2": "Zusammenarbeit mit Küchenpersonal zur Sicherstellung zeitnaher und qualitativ hochwertiger Essensausgabe",
-        "responsibility3": "Entwicklung starker Teamwork- und Kommunikationsfähigkeiten"
       }
+      
     },
     "contact": {
       "title": "Kontaktieren Sie mich",
