@@ -13,6 +13,13 @@ interface Project {
 
 export const projects = (t: any): Project[] => [
   {
+    title: "GameSprout",
+    description: t("projects.GameHubDescription"),
+    image: GameHub,
+    livePreview: "https://www.gamesprout.app",
+    sourceCode: ""
+  },
+  {
     title: "SocialCodeLens",
     description: t("projects.SocialCodeLensDescription"),
     image: socialCodeLens,
@@ -33,11 +40,5 @@ export const projects = (t: any): Project[] => [
     livePreview: "https://uniguesser.de",
     sourceCode: "https://github.com/ShahwanS/UniGuesser",
   },
-  {
-    title: "GameHub",
-    description: t("projects.GameHubDescription"),
-    image: GameHub,
-    livePreview: "https://gamehub-eight-orcin.vercel.app/",
-    sourceCode: ""
-  }
+
 ];

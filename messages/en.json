@@ -22,7 +22,7 @@
       "commandNotFound": "Command not found: {cmd}. Type 'help' for available commands.",
       "about": "About Me",
       "typeACommand": "Type 'help' for available commands.",
-      "cv": "https://drive.google.com/file/d/1FWcp5f03nJWPwIJeUCmDvep_8okv-OZD/view?usp=sharing"
+      "cv": "https://drive.google.com/file/d/1CXNN39szRFcP8TMOF_UVgodhPKR2-b9i/view?usp=sharing"
     },
     "about": {
       "title": "About Me",
@@ -68,14 +68,6 @@
         "responsibility1": "Sole developer building full-stack web applications",
         "responsibility2": "Created news websites and custom websites for clients",
         "responsibility3": "Implemented various interesting projects using modern web technologies"
-      },
-      "position2": {
-        "title": "Gastronomy Worker",
-        "company": "Aroma Restaurant",
-        "dates": "2021 - 2023",
-        "responsibility1": "Provided excellent customer service in a fast-paced restaurant environment",
-        "responsibility2": "Collaborated with kitchen staff to ensure timely and quality food service",
-        "responsibility3": "Developed strong teamwork and communication skills"
       }
     },
     "contact": {
