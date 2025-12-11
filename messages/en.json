@@ -22,7 +22,7 @@
       "commandNotFound": "Command not found: {cmd}. Type 'help' for available commands.",
       "about": "About Me",
       "typeACommand": "Type 'help' for available commands.",
-      "cv": "https://drive.google.com/file/d/1CXNN39szRFcP8TMOF_UVgodhPKR2-b9i/view?usp=sharing"
+      "cv": "https://drive.google.com/file/d/199GwF6rAmc4Q_-p6q5wJaxhKEM81JuOv/view?usp=sharing"
     },
     "about": {
       "title": "About Me",
@@ -53,7 +53,7 @@
       "title": "Projects",
       "viewLive": "View Live",
       "sourceCode": "Source Code",
-      "SocialCodeLensDescription": "SocialCodeLens delivers digital marketing, branding, and web development services.",
+      "JammyDescription": "A collaborative Spotify jam where people can add songs to the queue, vote on tracks, and the most voted song plays next.",
       "PhotogenieDescription": "A Portfolio Website for a Photographer.",
       "UniguesserDescription": "An interactive quiz game for university students.",
       "GameSproutDescription": "A platform for mini-games that can be played both offline and online."

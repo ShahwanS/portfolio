@@ -1,6 +1,6 @@
 import { StaticImageData } from "next/image";
 import photoGenie from "@/public/images/photogenie.png";
-import socialCodeLens from "@/public/images/SocialCodeLens.png";
+import jammy from "@/public/images/jammy.png";
 import uniGuesser from "@/public/images/uniguesser.png";
 import GameSprout from "@/public/images/GameSproute.png";
 interface Project {
@@ -20,11 +20,11 @@ export const projects = (t: any): Project[] => [
     sourceCode: ""
   },
   {
-    title: "SocialCodeLens",
-    description: t("projects.SocialCodeLensDescription"),
-    image: socialCodeLens,
-    livePreview: "https://www.socialcodelens.com",
-    sourceCode: "https://github.com/ShahwanS/socialcodelens",
+    title: "Jammy",
+    description: t("projects.JammyDescription"),
+    image: jammy,
+    livePreview: "https://spotify-jam.stormyfocus.cloud",
+    sourceCode: "",
   },
   {
     title: "Photogenie",
